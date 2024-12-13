@@ -28,8 +28,8 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className=" bg-slate-200 ">
-      <div className="navbar container mx-auto">
+    <div className=" bg-slate-500 ">
+      <div className="navbar bg-slate-900  container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -61,7 +61,7 @@ const Navbar = () => {
         <div className="flex space-x-6">
           {navItems.map((item) => (
             <Link
-              className="font-semibold hover:text-primary hover:animate-pulse duration-300"
+              className="font-semibold text-white hover:text-primary hover:animate-pulse duration-300"
               href={item.path}
               key={item.path}
             >

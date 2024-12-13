@@ -20,6 +20,15 @@ export default {
         CarDoctorTheme: {
           primary: "#ff5757",
           secondary: "#f6d860",
+
+          ".btn-primary": {
+            color: "#fff",
+          },
+
+          ".btn-outline.btn-primary:hover": {
+            color: "#fff",
+          },
+
           accent: "#37cdbe",
           neutral: "#3d4451",
           "base-100": "#ffffff",
