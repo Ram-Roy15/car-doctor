@@ -28,11 +28,17 @@ const Banner = () => {
               </div>
             </div>
             btn-outline
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href={banner.prev} className="btn btn-circle">
+            <div className="absolute right-12 space-x-4  bottom-12 ">
+              <a
+                href={banner.prev}
+                className="btn hover:text-orange-500 btn-circle"
+              >
                 ❮
               </a>
-              <a href={banner.next} className="btn btn-circle">
+              <a
+                href={banner.next}
+                className="btn hover:text-orange-500 btn-circle"
+              >
                 ❯
               </a>
             </div>
